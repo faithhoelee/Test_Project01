@@ -17,8 +17,8 @@ app.get("/fx-static", (req, res, next) => {
 });
 
 app.get("/fx", (req, res, next) => {
- rand1 = Math.floor(Math.random() * 90) + 10;
- rand2 = Math.floor(Math.random() * 90) + 10;
+ rand1 = Math.floor(Math.random() * 70) + 10;
+ rand2 = Math.floor(Math.random() * 70) + 10;
 
  var today = new Date();
  var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
